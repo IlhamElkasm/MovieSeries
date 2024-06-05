@@ -5,10 +5,10 @@
 
 <hibernate-configuration>
     <session-factory>
-
+     <!--
         <property name = "hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
         <property name = "hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-        <!-- Assume test is the database name -->
+
 
         <property name = "hibernate.connection.url">jdbc:mysql://localhost:3306/movieseries</property>
         <property name = "hibernate.connection.username">root</property>
@@ -17,6 +17,21 @@
         <property name = "show_sql">true</property>
 
         <mapping class="com.appmov.entity.Administrateur"/>
+        -->
+        <!-- Assume test is the database name -->
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/movieseries</property>
+        <property name="hibernate.connection.username"></property>
+        <property name="hibernate.connection.password">ader12</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="show_sql">true</property>
+
+        <mapping class="com.appmov.entity.Administrateur"/>
+        <!-- Add other mappings as needed -->
+
+
 
     </session-factory>
 </hibernate-configuration>
