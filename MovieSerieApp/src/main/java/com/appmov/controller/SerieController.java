@@ -23,7 +23,7 @@ public class SerieController {
         return "AddSerie"; // Assuming AddSerie.jsp is located in views directory
     }
 
-    @PostMapping("/serie/add")
+    @PostMapping("/addSerie")
     public String addSerie(@ModelAttribute("serie") Serie serie, Model model) {
         try {
             serieDao.saveSerie(serie);
@@ -35,6 +35,7 @@ public class SerieController {
         return "AddSerie";
     }
 }
+
 
 
 

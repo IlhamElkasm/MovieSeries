@@ -7,7 +7,7 @@
 </head>
 <body>
 <h1>Add Serie</h1>
-<form action="addSerie" method="post">
+<form action="${pageContext.request.contextPath}/addSerie" method="post">
     Titre: <input type="text" name="titre"><br>
     Description: <textarea name="description"></textarea><br>
     Date de début: <input type="text" name="date_debut"><br>
