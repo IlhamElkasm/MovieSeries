@@ -16,6 +16,7 @@
 
   <h1>Hello World !</h1>
  <a href="login">Home</a>
- <h1>${msg}</h1>
+<a href="addSerieForm">Add another Serie</a>
+
 </body>
 </html>
