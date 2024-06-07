@@ -8,6 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -18,7 +19,7 @@ import java.sql.SQLException;
 public class AdminController {
     private ApplicationContext conn;
 
-    @RequestMapping("/login")
+    @RequestMapping(value = "/login",method = RequestMethod.GET)
     public String view(Model m) {
         conn = new ClassPathXmlApplicationContext("ApplicationContext.xml");
         AdminDaoImpl obj = conn.getBean("dao", AdminDaoImpl.class);

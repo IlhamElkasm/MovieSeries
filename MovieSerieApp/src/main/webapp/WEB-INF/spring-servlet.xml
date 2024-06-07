@@ -10,16 +10,19 @@
                            http://www.springframework.org/schema/mvc
                            http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
-    <!-- Specify the base package for component scanning -->
-    <context:component-scan base-package="com.appmov"/>
+    <!-- Component scan to automatically discover Spring components -->
+    <context:component-scan base-package="com.appmov.controller" />
 
-    <!-- Enable annotation-driven MVC -->
-    <mvc:annotation-driven/>
+    <!-- Enable Spring MVC annotations -->
+    <mvc:annotation-driven />
 
-    <!-- View resolver for JSP views -->
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/WEB-INF/views/"/>
-        <property name="suffix" value=".jsp"/>
+    <!-- View resolver to resolve view names to JSP files -->
+    <bean id="viewResolver"
+          class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/jsp/" />
+        <property name="suffix" value=".jsp" />
     </bean>
-
+    <bean id="serie" class="com.service.SerieService"> </bean>
 </beans>
+
+
