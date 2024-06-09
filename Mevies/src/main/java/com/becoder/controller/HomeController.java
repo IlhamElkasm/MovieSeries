@@ -103,7 +103,7 @@ public class HomeController {
 
 		if (user != null) {
 			session.setAttribute("loginuser", user);
-			return "profile";
+			return "home";
 		} else {
 			session.setAttribute("msg", "invalid email and password");
 			return "redirect:/login";

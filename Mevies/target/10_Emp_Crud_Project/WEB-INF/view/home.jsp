@@ -11,17 +11,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- CSS -->
-	<link rel="stylesheet" href="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Movies/src/main/webapp/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Movies/src/main/webapp/css/splide.min.css">
-	<link rel="stylesheet" href="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Movies/src/main/webapp/css/slimselect.css">
-	<link rel="stylesheet" href="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Movies/src/main/webapp/css/plyr.css">
-	<link rel="stylesheet" href="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Movies/src/main/webapp/css/photoswipe.css">
-	<link rel="stylesheet" href="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Movies/src/main/webapp/css/default-skin.css">
-	<link rel="stylesheet" href="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Movies/src/main/webapp/css/main.css">
+	<link rel="stylesheet" href="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Mevies/src/main/webapp/WEB-INF/view/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Mevies/src/main/webapp/WEB-INF/view/css/splide.min.css">
+	<link rel="stylesheet" href="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Mevies/src/main/webapp/WEB-INF/view/css/slimselect.css">
+	<link rel="stylesheet" href="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Mevies/src/main/webapp/WEB-INF/view/css/plyr.css">
+	<link rel="stylesheet" href="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Mevies/src/main/webapp/WEB-INF/view/css/photoswipe.css">
+	<link rel="stylesheet" href="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Mevies/src/main/webapp/WEB-INF/view/css/default-skin.css">
+	<link rel="stylesheet" href="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Mevies/src/main/webapp/WEB-INF/view/css/main.css">
 
 	<!-- Favicons -->
-	<link rel="icon" type="image/png" href="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Movies/src/main/webapp/icon/favicon-32x32.png" sizes="32x32">
-	<link rel="apple-touch-icon" href="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Movies/src/main/webapp/icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" href="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Mevies/src/main/webapp/WEB-INF/view/icon/favicon-32x32.png" sizes="32x32">
+	<link rel="apple-touch-icon" href="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Mevies/src/main/webapp/WEB-INF/view/icon/favicon-32x32.png">
 
 
 	<meta name="description" content="Online Movies, TV Shows & Cinema HTML Template">
@@ -39,7 +39,7 @@
 				<div class="header__content">
 					<!-- header logo -->
 					<a href="home" class="header__logo">
-						<img src="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Movies/src/main/webapp/img/logo.svg" alt="">
+						<img src="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Mevies/src/main/webapp/WEB-INF/view/img/logo.svg" alt="">
 					</a>
 					<!-- end header logo -->
 
@@ -209,7 +209,7 @@
 					<div class="splide__track">
 						<ul class="splide__list">
 							<li class="splide__slide">
-								<div class="hero__slide" data-bg="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Movies/src/main/webapp/img/bg/slide__bg-1.jpg">
+								<div class="hero__slide" data-bg="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Mevies/src/main/webapp/WEB-INF/view/img/bg/slide__bg-1.jpg">
 									<div class="hero__content">
 										<h2 class="hero__title">Savage Beauty <sub>9.8</sub></h2>
 										<p class="hero__text">A brilliant scientist discovers a way to harness the power of the ocean's currents to create a new, renewable energy source. But when her groundbreaking technology falls into the wrong hands, she must race against time to stop it from being used for evil.</p>
@@ -222,7 +222,7 @@
 								</div>
 							</li>
 							<li class="splide__slide">
-								<div class="hero__slide" data-bg="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Movies/src/main/webapp/img/bg/slide__bg-2.jpg">
+								<div class="hero__slide" data-bg="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Mevies/src/main/webapp/WEB-INF/view/img/bg/slide__bg-2.jpg">
 									<div class="hero__content">
 										<h2 class="hero__title">Voices from the Other Side <sub>7.1</sub></h2>
 										<p class="hero__text">In a world where magic is outlawed and hunted, a young witch must use her powers to fight back against the corrupt authorities who seek to destroy her kind.</p>
@@ -236,7 +236,7 @@
 								</div>
 							</li>
 							<li class="splide__slide">
-								<div class="hero__slide" data-bg="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Movies/src/main/webapp/img/bg/slide__bg-3.jpg">
+								<div class="hero__slide" data-bg="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Mevies/src/main/webapp/WEB-INF/view/img/bg/slide__bg-3.jpg">
 									<div class="hero__content">
 										<h2 class="hero__title">Endless Horizon <sub>8.6</sub></h2>
 										<p class="hero__text">When a renowned archaeologist goes missing, his daughter sets out on a perilous journey to the heart of the Amazon rainforest to find him. Along the way, she discovers a hidden city and a dangerous conspiracy that threatens the very balance of power in the world.</p>
@@ -293,7 +293,7 @@
 					<div class="col-6 col-sm-12 col-lg-6 col-xxl-4">
 						<div class="item item--list">
 							<a href="details1.html" class="item__cover">
-								<img src="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Movies/src/main/webapp/img/covers/1.png" alt="">
+								<img src="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Mevies/src/main/webapp/WEB-INF/view/img/covers/1.png" alt="">
 								<span class="item__play">
 										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.54,9,8.88,3.46a3.42,3.42,0,0,0-5.13,3V17.58A3.42,3.42,0,0,0,7.17,21a3.43,3.43,0,0,0,1.71-.46L18.54,15a3.42,3.42,0,0,0,0-5.92Zm-1,4.19L7.88,18.81a1.44,1.44,0,0,1-1.42,0,1.42,1.42,0,0,1-.71-1.23V6.42a1.42,1.42,0,0,1,.71-1.23A1.51,1.51,0,0,1,7.17,5a1.54,1.54,0,0,1,.71.19l9.66,5.58a1.42,1.42,0,0,1,0,2.46Z"/></svg>
 									</span>
@@ -347,7 +347,7 @@
 		<div class="row">
 			<div class="col-12 col-md-8 order-md-1 col-lg-12 col-xl-4">
 				<div class="footer__logo">
-					<img src="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Movies/src/main/webapp/img/logo.svg" alt="">
+					<img src="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Mevies/src/main/webapp/WEB-INF/view/img/logo.svg" alt="">
 				</div>
 				<p class="footer__tagline">Movies & TV Shows, Online cinema,<br> Movie database HTML Template. <br>The perfect choice for your project.</p>
 
@@ -417,14 +417,14 @@
 <!-- end plan modal -->
 
 <!-- JS -->
-<script src="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Movies/src/main/webapp/js/bootstrap.bundle.min.js"></script>
-<script src="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Movies/src/main/webapp/js/splide.min.js"></script>
-<script src="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Movies/src/main/webapp/js/smooth-scrollbar.js"></script>
-<script src="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Movies/src/main/webapp/js/slimselect.min.js"></script>
-<script src="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Movies/src/main/webapp/js/plyr.min.js"></script>
-<script src="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Movies/src/main/webapp/js/photoswipe.min.js"></script>
-<script src="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Movies/src/main/webapp/js/photoswipe-ui-default.min.js"></script>
-<script src="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Movies/src/main/webapp/js/main.js"></script>
+<script src="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Mevies/src/main/webapp/WEB-INF/view/js/bootstrap.bundle.min.js"></script>
+<script src="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Mevies/src/main/webapp/WEB-INF/view/js/splide.min.js"></script>
+<script src="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Mevies/src/main/webapp/WEB-INF/view/js/smooth-scrollbar.js"></script>
+<script src="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Mevies/src/main/webapp/WEB-INF/view/js/slimselect.min.js"></script>
+<script src="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Mevies/src/main/webapp/WEB-INF/view/js/plyr.min.js"></script>
+<script src="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Mevies/src/main/webapp/WEB-INF/view/js/photoswipe.min.js"></script>
+<script src="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Mevies/src/main/webapp/WEB-INF/view/js/photoswipe-ui-default.min.js"></script>
+<script src="https://raw.githack.com/IlhamElkasm/MovieSeries/ilham/Mevies/src/main/webapp/WEB-INF/view/js/main.js"></script>
 </body>
 
 <!-- Mirrored from flixgo.volkovdesign.com/main/index2.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Jun 2024 15:40:17 GMT -->
